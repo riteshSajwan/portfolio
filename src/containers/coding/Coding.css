@@ -1,0 +1,39 @@
+.codingContainer{
+    background-color: black;
+}
+
+.codingContent {
+    color: wheat;
+    margin: auto;
+    width: 70%;
+}
+
+.codingHeading{
+    color: #bbbbbb;
+    font-size: 3.5rem;
+    font-weight: 500;
+    padding: 3rem 0;
+}
+
+.codinPlatform{
+    color: orange ;
+    padding: 10px 0;
+}
+
+.desc{
+    width: 80%;
+    line-height: 3px;
+    padding: 10px 0;
+}
+
+.codingbox{
+    box-sizing: border-box;
+    padding: 2rem 0;
+
+}
+
+.link{
+    display: block;
+    margin-top: 15px;
+    color: red;
+}

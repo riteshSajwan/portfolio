@@ -1,0 +1,177 @@
+.uparrow button{
+  background-color: #000000;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 1rem 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+  /* background: #000000; */
+  background-color: #000000;
+}
+
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar .logo a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.navbar .logo a span {
+  color: crimson;
+  transition: all 0.3s ease;
+}
+
+.navbar .sticky .logo a span {
+  color: #fff;
+}
+
+.navbar-links {
+  height: 100%;
+  padding-right: 20px;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  text-decoration: none;
+  color: #bbbbbb;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.navbar-links li a:hover {
+  color: crimson;
+}
+
+.navbar-links li i {
+  padding-right: 0.3rem;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.buttttt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.toggle-buttonn {
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-buttonn .bar-white {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 1240px) {
+
+  .navbar .max-width {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .max-width ul {
+    margin-top: 1rem;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .toggle-buttonn {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links li a {
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+} 
+
+@media (max-width: 500px) {
+  .navbar {
+      padding: 1rem 1rem;
+  }
+  .navbar .max-width {
+      margin: 0;
+      width: 100%;
+  }
+  .navbar-links li a {
+    font-size: 1.2rem;
+  }
+  .navbar-links li {
+    margin: 15px 0;
+  }
+}
