@@ -34,7 +34,6 @@ const projects = {
 			The project was built using a combination of front-end and back-end technologies such as HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, and MongoDB.
 			Application Hosted on Render.com`,
 			image: require('./images/bld.png'),
-			video: require(`./images/bankvideo.mp4`),
 			direction: 'left',
 			footerLink: [
 				{
@@ -54,7 +53,6 @@ const projects = {
 			Filter goals by hashtag and/or text, and sort goals by time spent per goal
 			View a Bar graph that displays the amount of time spent per goal.`,
 			image: require('./images/task.png'),
-			video: require(`./images/bankvideo.mp4`),
 			direction: 'right',
 			footerLink: [
 				{
@@ -73,7 +71,6 @@ const projects = {
 			The bank management system included features such as viewing all customers bank balance , sending and receiving money with some special checks 
 			The project was developed using modern web development technologies such as React.js,Express.js,MongoDb,Node.js.`,
 			image: require('./images/bank.png'),
-			video: require(`./images/bankvideo.mp4`),
 			direction: 'left',
 			footerLink: [
 				{
@@ -92,7 +89,6 @@ const projects = {
 			The project was developed using ReactJS for front-end development, along with other related technologies such as Redux for state management, Axios for API communication, and MongoDb for user authentication and data storage.
 			The project showcased strong technical skills in ReactJS and related technologies, demonstrating the ability to create interactive web applications with modern UI/UX design. It could be highlighted as a successful project that showcases proficiency in front-end development and user-centric design. `,
 			image: require('./images/blog.png'),
-			video: require(`./images/bankvideo.mp4`),
 			direction: 'right',
 			footerLink: [
 				{
