@@ -78,8 +78,8 @@ const projects = {
 					url: 'https://github.com/Ritesh9211/bankmanagement',
 				},
 				{
-					name: 'Live Demo Not Present',
-					url: 'https://github.com/Ritesh9211/bankmanagement',
+					name: 'Live Demo',
+					url: 'https://bankfrontend.onrender.com/home',
 				},
 			],
 		},{
