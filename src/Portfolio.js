@@ -79,7 +79,7 @@ const projects = {
 				},
 				{
 					name: 'Live Demo',
-					url: 'https://bankfrontend.onrender.com/home',
+					url: 'https://bankfrontend.onrender.com',
 				},
 			],
 		},{
