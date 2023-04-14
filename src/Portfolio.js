@@ -93,11 +93,11 @@ const projects = {
 			footerLink: [
 				{
 					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211',
+					url: 'https://github.com/Ritesh9211/reactblog',
 				},
 				{
-					name: 'Live Demo Not Present',
-					url: 'https://github.com/Ritesh9211',
+					name: 'Live Demo',
+					url: 'https://blogfrontend-p3q6.onrender.com/',
 				},
 			],
 		},
