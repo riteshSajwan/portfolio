@@ -19,7 +19,7 @@ const Greeting = () => {
                 <div className="home-content">
                     <div className="text-1">{greeting.title}</div>
                     <div className="text-2">{greeting.username}</div>
-                    <div className="text-3">An accomplished engineering graduate in Information Technology(2023) with a diverse range of skills, I am excited to secure an entry-level position where I can enhance my knowledge and proficiency as a software developer or full-stack web developer. </div>
+                    <div className="text-3"> <p>An accomplished engineering graduate in Information Technology(2023) with a diverse range of skills, I am excited to secure an entry-level position where I can enhance my knowledge and proficiency as a software developer or full-stack web developer.</p>  </div>
                     <div className="resume">
                         <a href={process.env.PUBLIC_URL + `Ritesh's Resume (1).pdf`} target="_blank">See My Resume</a>
                     </div>  

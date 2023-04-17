@@ -226,8 +226,18 @@
   .skills-image-div {
     order: 2;
   }
+  
+}
+@media (max-width:600px){
+  .about-content{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .column-left, .column-right {
+    width: 100%;
 }
 
+}
 @media (max-width: 500px) {
   .skills {
     padding: 3rem 1rem;

@@ -19,7 +19,7 @@ const coding = () => {
                     
                     <div key={index}  className="codingbox">
                         <h2  className='codinPlatform'>{index+1}.  {platform.name}</h2>
-                        <p className="desc">{platform.desc}</p>
+                        <div className="desc"><p >{platform.desc}</p></div>
                         {/* <Link to="https://leetcode.com/ritesh9211/">Visit Profile</Link> */}
                         <a className='link' href={platform.link} target="_blank">Visit {platform.name} Profile</a>
                         {/* <iframe src="https://leetcode.com/ritesh9211/"></iframe> */}
