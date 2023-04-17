@@ -19,8 +19,15 @@
 
 .skillimage{
   background-color: white;
+  /* transform: perspective(25px) rotateX(0deg) rotateY(0deg) scale(1); */
+  /* animation: rotate 1s infinite;
+ 
+  transform-origin: center;  */
 }
 
+.software-skill-inline :hover{
+background: black;
+}
 
 .software-skill-inline > p {
   padding-top: 0.5rem;
@@ -37,3 +44,14 @@
 .software-skill-inline > i:hover ~ p{
   color: #eb5b5b;
 }
+
+/* @keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+

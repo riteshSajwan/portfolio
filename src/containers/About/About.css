@@ -151,7 +151,9 @@
   padding: 1rem 0rem;
   color: wheat;
 }
-
+.groupSkill{
+  box-sizing: border-box;
+}
 .groupSkill > p {
   text-align: start;
   padding: 1rem;

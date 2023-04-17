@@ -146,8 +146,12 @@ const skillsSection = {
 				imgSrc: 'https://img.icons8.com/color/50/000000/c-plus-plus-logo.png'
 			},
 			{
-				skillName: 'Java',
+				skillName: 'Java (OOPS)',
 				imgSrc: 'https://img.icons8.com/external-flaticons-flat-flat-icons/64/null/external-java-computer-programming-flaticons-flat-flat-icons.png'
+			},
+			{
+				skillName: 'Python(Basics)',
+				imgSrc: "https://img.icons8.com/color/48/null/python--v1.png"
 			},
 		],
 
@@ -163,6 +167,10 @@ const skillsSection = {
 			{
 				skillName: 'Bootstrap5',
 				imgSrc: 'https://img.icons8.com/color/50/000000/bootstrap.png',
+			},
+			{
+				skillName: 'Material-UI',
+				imgSrc: "https://img.icons8.com/color/48/null/material-ui.png",
 			},
 			{
 				skillName: 'Javascript',
@@ -186,6 +194,10 @@ const skillsSection = {
 			{
 			 	skillName: 'Firebase',
 			 	imgSrc: 'https://img.icons8.com/color/50/000000/firebase.png',
+			},
+			{
+			 	skillName: 'Redux',
+			 	imgSrc: "https://img.icons8.com/color/48/null/redux.png",
 			},
 		],
 		
