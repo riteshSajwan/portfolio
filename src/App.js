@@ -8,6 +8,7 @@ import Education from './containers/Education/Education'
 import Coding from './containers/coding/Coding'
 import {Link} from 'react-router-dom'
 import './App.css';
+import Experience from './containers/Experience/Experience'
 
 function App() {
 	return (
@@ -17,6 +18,7 @@ function App() {
 			<Education/>
 			<About/>
 			<Project/>
+			<Experience/>
 			<Coding/>
 			<Contact/>
 			<Footer/>

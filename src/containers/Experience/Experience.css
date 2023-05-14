@@ -1,0 +1,75 @@
+.experience {
+    overflow: hidden;
+    display: flex;
+    background: black;
+    height: auto;
+    padding: 100px 0px;
+    color: #bbbbbb;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .date{
+    color: red;
+  }
+  
+  .experience .max-width {
+    width: 100%;
+    display: flex;
+  }
+
+  .experience-text-duration{
+    color: azure;
+  }
+  
+  .experience .experience-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 20px 0px;
+    margin: 0px auto;
+  }
+  
+  .experience .experience-section .experience-heading {
+    font-size: 56px;
+    font-weight: 400;
+  }
+  
+  .experience-section > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .experience-card-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  
+  @media (max-width: 1380px) {
+    .experience-card-container {
+      padding-top: 0px;
+    }
+    .experience-heading {
+      font-size: 40px;
+    }
+    .experience-text-subtitle {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .experience-card-container {
+      padding-top: 0px;
+    }
+    .experience-heading {
+      font-size: 30px;
+      text-align: center;
+    }
+    .experience-text-subtitle {
+      font-size: 16px;
+    }
+  }
+  

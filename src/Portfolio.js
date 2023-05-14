@@ -266,6 +266,26 @@ const educationInfo = {
 	],
 };
 
+const experienceInfo = {
+	display:true,
+	experiences:[
+		{
+			companyName:"Behere Elite Private Limited (Delhi)",
+			start:"12/07/2020",
+			end:"12/10/2020",
+			role:"Web Developer Inter(MERN)",
+			desc: [  "Collaborated with a 5-member team to develop the front end of an e-commerce application, connecting it with the backend, and rendering dynamic content from the database","Made the web application responsive which will be helpful to attract 60% of customers through mobile phones.",
+		"Breaking pages into components in order to make efficient and reusable code","Testing of backend API's of the web application using postman.","TechStack used - ReactJs, MongoDB, NodeJs, ExpressJs, RestApi, and Github."]
+		},
+		{
+			companyName:"Sparks Foundation GRIP (Remote)",
+			start:"12/07/2020",
+			end:"12/10/2020",
+			role:"Web Developer Inter(MERN)",
+			desc:["Simulated a Full stack Basic Bank application using MERN stack with functionality like sending and receiving data and displaying the user's balance."]
+		}
+	]
+}
 
 const contactMe = {
 	display: true,
@@ -309,4 +329,5 @@ export {
 	educationInfo,
 	projects,
 	CodingSection,
+	experienceInfo,
 }
