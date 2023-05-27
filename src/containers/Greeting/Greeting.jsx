@@ -25,7 +25,7 @@ const Greeting = () => {
                     </div>  
                     <div className="profileLinks">
                         <a href="https://www.linkedin.com/in/ritesh-sajwan-693a781b8/" target="_blank">LinkedIn</a>
-                        <a href="https://www.linkedin.com/in/ritesh-sajwan-693a781b8/" target="_blank">GitHub</a>
+                        <a href="https://github.com/Ritesh9211" target="_blank">GitHub</a>
                     </div>
                         
                 </div>

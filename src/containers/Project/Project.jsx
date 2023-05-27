@@ -15,6 +15,7 @@ const Project = () => {
             <BrowserView>
                 <div className="projectHeader">
                     <h1 className="project-heading">{projects.title}</h1>
+                    <h3 className="project-subtitle">{projects.subtitle}</h3>
                 </div>
                 <div className="projects-cards-div">
                     {

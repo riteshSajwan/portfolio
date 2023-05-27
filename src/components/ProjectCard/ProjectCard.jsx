@@ -4,7 +4,7 @@ import { Fade } from 'react-awesome-reveal'
 import { BrowserView, MobileView } from 'react-device-detect';
 
 export default function ProjectCard({ cardInfo }) {
-	console.log(cardInfo.video)
+	console.log(cardInfo)
 	function openUrlInNewTab(url) {
 		var win = window.open(url, "_blank");
 		win.focus();

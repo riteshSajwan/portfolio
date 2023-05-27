@@ -10,7 +10,7 @@ const aboutMe = {
     title: 'About Me',
     subTitle: 'An aspiring Software Developer / Full Stack Web Developer 🚀 having an experience of building Web with JavaScript / Reactjs and some other  libraries and frameworks .',
 	skills: [
-		'⚡ Proficient in programming languages such as C++,Java(OOPS) and Python',
+		'⚡ Proficient in programming languages such as C++,Java(OOPS) and Python(Basics)',
 		'⚡ Familiarity with web development technologies such as HTML, CSS,React.js,JavaScript, MERN stack',
 		'⚡ Familiarity with RESTful APIs,Redux, React Hooks and working of modern authorization mechanisms, such as JSON Web Token',
 		'⚡ Ability to work in a collaborative team environment and adapt to chainging environment',
@@ -24,8 +24,8 @@ const aboutMe = {
 
 const projects = {
 	display: true,
-	title: 'Projects 🏆 ',
-	subtitle: 'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
+	title: 'Projects 🏆  ',
+	subtitle: ' Note -  API(Projects) might take a bit longer time to load as hosted on free web services',
 	projectCards: [
 		{
 			title: 'Blood Donation Web Application',
