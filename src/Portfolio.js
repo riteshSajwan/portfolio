@@ -287,16 +287,16 @@ const experienceInfo = {
 	experiences:[
 		{
 			companyName:"Behere Elite Private Limited (Delhi)",
-			start:"12/07/2020",
-			end:"12/10/2020",
+			start:"1/08/2022",
+			end:"31/12/2022",
 			role:"Software Developer Intern(MERN)",
 			desc: [  "Collaborated with a team to develop an e-commerce application with Api integration to render dynamic content from the database","Made the web application responsive to attract customers through mobile phones.",
 		"Breaking pages into components in order to make efficient and reusable code.","Testing of backend API's of the web application using postman.","TechStack used - ReactJs, MongoDB, NodeJs, ExpressJs, RestApi, and Github."]
 		},
 		{
 			companyName:"Sparks Foundation GRIP (Remote)",
-			start:"12/07/2020",
-			end:"12/10/2020",
+			start:"1/07/2022",
+			end:"1/08/2022",
 			role:"Web Developer Inter(MERN)",
 			desc:["Simulated a Full stack Basic Bank application using MERN stack with functionality like sending and receiving data and displaying the user's balance and hosted web application in render.com"]
 		}
