@@ -101,6 +101,22 @@ const projects = {
 				},
 			],
 		},
+		{
+			title: 'PlayStore Data Analysis',
+			subtitle: `Performed a comprehensive analysis of Play Store data to gain
+			insights into user behavior, app trends, and other key metrics
+			Used Kaggle to collect data on Play Store apps. The data was then
+			cleaned and analyzed using various statistical and ML techniques
+			The project utilized Python programming language and various
+			libraries such as Pandas, NumPy, and Matplotlib.
+			The project uncovered trends, like the most popular app categories,
+			impact of app ratings on downloads and many more `,
+			image: require("./images/dataanalysis.png"),
+			direction: 'right',
+			footerLink: [
+				
+			],
+		},
 	],
 };
 
@@ -253,8 +269,8 @@ const educationInfo = {
 			schoolName: 'Hemvati Nandan Bahuguna Garhwal University ( A Central University )',
 			logo: require('./images/hnbgu_logo.jpeg'),
 			subHeader: 'B.Tech in Information Technology',
-			duration: 'August 2019 - Present',
-			desc: '',
+			duration: 'August 2019 - July 2023',
+			desc: '7.0 CGPA',
 		},
 		{
 			schoolName: `St.Theresa'S Convent School Srinagar Garhwal(Uttarakhand)`,
@@ -273,16 +289,16 @@ const experienceInfo = {
 			companyName:"Behere Elite Private Limited (Delhi)",
 			start:"12/07/2020",
 			end:"12/10/2020",
-			role:"Web Developer Inter(MERN)",
-			desc: [  "Collaborated with a 5-member team to develop the front end of an e-commerce application, connecting it with the backend, and rendering dynamic content from the database","Made the web application responsive which will be helpful to attract 60% of customers through mobile phones.",
-		"Breaking pages into components in order to make efficient and reusable code","Testing of backend API's of the web application using postman.","TechStack used - ReactJs, MongoDB, NodeJs, ExpressJs, RestApi, and Github."]
+			role:"Software Developer Intern(MERN)",
+			desc: [  "Collaborated with a team to develop an e-commerce application with Api integration to render dynamic content from the database","Made the web application responsive to attract customers through mobile phones.",
+		"Breaking pages into components in order to make efficient and reusable code.","Testing of backend API's of the web application using postman.","TechStack used - ReactJs, MongoDB, NodeJs, ExpressJs, RestApi, and Github."]
 		},
 		{
 			companyName:"Sparks Foundation GRIP (Remote)",
 			start:"12/07/2020",
 			end:"12/10/2020",
 			role:"Web Developer Inter(MERN)",
-			desc:["Simulated a Full stack Basic Bank application using MERN stack with functionality like sending and receiving data and displaying the user's balance."]
+			desc:["Simulated a Full stack Basic Bank application using MERN stack with functionality like sending and receiving data and displaying the user's balance and hosted web application in render.com"]
 		}
 	]
 }
