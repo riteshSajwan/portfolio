@@ -114,7 +114,24 @@ const projects = {
 			image: require("./images/dataanalysis.png"),
 			direction: 'right',
 			footerLink: [
+				{
+					name: 'Source Code',
+					url: 'https://github.com/Ritesh9211/playstoreEDA',
+				},
 				
+			],
+		},
+		{
+			title: 'Teligram Bot using Node.js',
+			subtitle: `This is a self created teligram bot to send response on some predefined message like \n
+			"hi" will send greeting from bot and "/postwikidata" will send some random wikipedia post. Other predefine response can also be added.`,
+			image: require("./images/teligram_bot.png"),
+			direction: 'right',
+			footerLink: [
+				{
+					name: 'Source Code',
+					url: 'https://github.com/Ritesh9211/teligramchatbot/tree/main',
+				},
 			],
 		},
 	],

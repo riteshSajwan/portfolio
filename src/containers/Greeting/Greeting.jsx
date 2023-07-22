@@ -1,8 +1,9 @@
 import React, { useRef, useEffect } from 'react';
 import './Greeting.css'
 import { greeting } from '../../Portfolio'
-import profile from "../../images/profile.jpg"
-import Typed from 'typed.js';
+import profile from "../../images/DSC_3965-min.jpg"
+// import profile from "../../images/profile.jpg"
+
 
 
 
