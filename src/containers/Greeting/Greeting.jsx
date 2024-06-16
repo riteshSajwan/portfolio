@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import './Greeting.css'
 import { greeting } from '../../Portfolio'
-import profile from "../../images/DSC_3965-min.jpg"
+import profile from "../../images/IMG_20240525_140337_749.jpg"
 // import profile from "../../images/profile.jpg"
 
 
@@ -20,7 +20,15 @@ const Greeting = () => {
                 <div className="home-content">
                     <div className="text-1">{greeting.title}</div>
                     <div className="text-2">{greeting.username}</div>
-                    <div className="text-3"> <p>An accomplished engineering graduate in Information Technology(2023) with a diverse range of skills, I am excited to secure an entry-level position where I can enhance my knowledge and proficiency as a software developer or full-stack web developer.</p>  </div>
+                    <div className="text-3"> 
+                        <p>
+                    An Associate Developer 1 with a passion for crafting seamless user experiences through innovative web development. With over 1year of  experience in the dynamic realm of React.js , TypeScript,node.js,   I specialize in bridging the gap between frontend and backend systems.
+
+                    🛠️ My expertise lies in API integration, where I leverage the power of Redux and Saga middleware to streamline data flow and enhance application performance.
+
+                    💻 In addition to my frontend skills, I'm proficient in backend technologies like Node.js, allowing me to develop comprehensive solutions across the entire tech stack. Moreover, I know containerization technologies like Docker and orchestration systems like Kubernetes, ensuring scalability and reliability in deployment.
+
+                        </p>  </div>
                     <div className="resume">
                         <a href={process.env.PUBLIC_URL + `Ritesh's Resume (1).pdf`} target="_blank">See My Resume</a>
                     </div>  

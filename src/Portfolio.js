@@ -1,14 +1,14 @@
 const greeting = {
     display: true,
     username: 'Ritesh Sajwan',
-    title: "Hi I'm",
+    title: "👋 Hello! I'm",
     subTitle: '',
 };
 
 const aboutMe = {
 	display: true,
     title: 'About Me',
-    subTitle: 'An aspiring Software Developer / Full Stack Web Developer 🚀 having an experience of building Web with JavaScript / Reactjs and some other  libraries and frameworks .',
+    subTitle: 'Full Stack Web Developer 🚀 having an experience of building Web with JavaScript / Reactjs and some other  libraries and frameworks .',
 	skills: [
 		'⚡ Proficient in programming languages such as C++,Java(OOPS) and Python(Basics)',
 		'⚡ Familiarity with web development technologies such as HTML, CSS,React.js,JavaScript, MERN stack',
@@ -27,25 +27,6 @@ const projects = {
 	title: 'Projects 🏆  ',
 	subtitle: ' Note -  API(Projects) might take a bit longer time to load as hosted on free web services',
 	projectCards: [
-		{
-			title: 'Blood Donation Web Application',
-			subtitle: `The web application is made using MERN stack styled with CSS, font-awesome.
-			The web application included features such as users registration and functionality to find compatible donors.
-			The project was built using a combination of front-end and back-end technologies such as HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, and MongoDB.
-			Application Hosted on Render.com`,
-			image: require('./images/bld.png'),
-			direction: 'left',
-			footerLink: [
-				{
-					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211',
-				},
-				{
-					name: 'Live Demo',
-					url: 'https://blddonnerwebapp.onrender.com',
-				},
-			],
-		},
 		{
 			title: 'Personal Task Manager',
 			subtitle: `Web application is made using ReactJs and styled using material-ui
@@ -66,6 +47,62 @@ const projects = {
 			],
 		},
 		{
+			title: 'Blood Donation Web Application',
+			subtitle: `The web application is made using MERN stack styled with CSS, font-awesome.
+			The web application included features such as users registration and functionality to find compatible donors.
+			The project was built using a combination of front-end and back-end technologies such as HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, and MongoDB.
+			Application Hosted on Render.com`,
+			image: require('./images/bld.png'),
+			direction: 'left',
+			footerLink: [
+				{
+					name: 'Source Code',
+					url: 'https://github.com/Ritesh9211',
+				},
+				{
+					name: 'Live Demo',
+					url: 'https://blddonnerwebapp.onrender.com',
+				},
+			],
+		},
+		{
+			title: 'React Blog Application',
+			subtitle: `The project aimed to develop a modern blog application using ReactJS, a popular JavaScript library for building user interfaces, to create an interactive and dynamic blogging platform.
+			The blog application included features such as user authentication and authorization, blog post by the registered users with image , creation , editing/deleting of blog , Changing of username passoword etc.
+			The project was developed using ReactJS for front-end development, along with other related technologies such as Redux for state management, Axios for API communication, and MongoDb for user authentication and data storage.
+			The project showcased strong technical skills in ReactJS and related technologies, demonstrating the ability to create interactive web applications with modern UI/UX design. It could be highlighted as a successful project that showcases proficiency in front-end development and user-centric design. `,
+			image: require('./images/blog.png'),
+			direction: 'right',
+			footerLink: [
+				{
+					name: 'Source Code',
+					url: 'https://github.com/Ritesh9211/reactblog',
+				},
+				{
+					name: 'Live Demo',
+					url: 'https://blogfrontend-p3q6.onrender.com/',
+				},
+			],
+		},
+		{
+			title: 'WhatsApp clone (Hosting In Progress)',
+			subtitle: `Developing a WhatsApp clone to facilitate real-time messaging and live chat functionality.
+				Implementing a robust backend using Node.js and Express.js to handle user authentication, message storage, and real-time data transmission.
+				Utilizing MongoDB for efficient data management and storage of user information and chat history.
+				Created a responsive and dynamic front-end using React.js and material UI to provide a seamless user experience.
+				Integrating Socket.io to enable live chat capabilities, ensuring instant message delivery and updates.
+				Ensuring high performance and scalability to handle multiple users and real-time interactions `,
+			image: require('./images/whatAppClone.png'),
+			direction: 'right',
+			footerLink: [
+				{
+					name: 'Source Code',
+					url: 'https://github.com/riteshSajwan/ChatApp',
+				},
+				
+			],
+		},
+		{
 			title: 'Bank Management System',
 			subtitle: ` The project aimed to simulate a basic bank management system that would streamline banking operations like sending and receiving money.
 			The bank management system included features such as viewing all customers bank balance , sending and receiving money with some special checks 
@@ -82,22 +119,17 @@ const projects = {
 					url: 'https://bankfrontend.onrender.com',
 				},
 			],
-		},{
-			title: 'React Blog Application',
-			subtitle: `The project aimed to develop a modern blog application using ReactJS, a popular JavaScript library for building user interfaces, to create an interactive and dynamic blogging platform.
-			The blog application included features such as user authentication and authorization, blog post by the registered users with image , creation , editing/deleting of blog , Changing of username passoword etc.
-			The project was developed using ReactJS for front-end development, along with other related technologies such as Redux for state management, Axios for API communication, and MongoDb for user authentication and data storage.
-			The project showcased strong technical skills in ReactJS and related technologies, demonstrating the ability to create interactive web applications with modern UI/UX design. It could be highlighted as a successful project that showcases proficiency in front-end development and user-centric design. `,
-			image: require('./images/blog.png'),
+		},
+		{
+			title: 'Teligram Bot using Node.js',
+			subtitle: `This is a self created teligram bot to send response on some predefined message like \n
+			"hi" will send greeting from bot and "/postwikidata" will send some random wikipedia post. Other predefine response can also be added.`,
+			image: require("./images/teligram_bot.png"),
 			direction: 'right',
 			footerLink: [
 				{
 					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211/reactblog',
-				},
-				{
-					name: 'Live Demo',
-					url: 'https://blogfrontend-p3q6.onrender.com/',
+					url: 'https://github.com/Ritesh9211/teligramchatbot/tree/main',
 				},
 			],
 		},
@@ -121,19 +153,7 @@ const projects = {
 				
 			],
 		},
-		{
-			title: 'Teligram Bot using Node.js',
-			subtitle: `This is a self created teligram bot to send response on some predefined message like \n
-			"hi" will send greeting from bot and "/postwikidata" will send some random wikipedia post. Other predefine response can also be added.`,
-			image: require("./images/teligram_bot.png"),
-			direction: 'right',
-			footerLink: [
-				{
-					name: 'Source Code',
-					url: 'https://github.com/Ritesh9211/teligramchatbot/tree/main',
-				},
-			],
-		},
+	
 	],
 };
 
@@ -255,6 +275,10 @@ const skillsSection = {
 				skillName: 'Linux',
 				imgSrc: "https://img.icons8.com/ios-glyphs/30/null/linux.png"
 			},
+			{
+				skillName: 'Docker',
+				imgSrc: "https://img.icons8.com/?size=100&id=22813&format=png&color=000000"
+			},
 		],
 	},
 };
@@ -303,7 +327,17 @@ const experienceInfo = {
 	display:true,
 	experiences:[
 		{
-			companyName:"Behere Elite Private Limited (Delhi)",
+			companyName:"Evon Technology (Dehradun)",
+			start:"3/08/2023",
+			end:"Present",
+			role:"Associate Developer",
+			desc: [  "Developed independent modules to enhance the functionality of the Pathik platform.",
+				"Integrated various platforms such as TikTok to broaden the service offerings of Pathik.",
+				"Collaborated with cross-functional teams to ensure seamless integration and optimal performance of new modules.",
+				"Utilized best practices in React.js and TypeScript to deliver high-quality, maintainable, and scalable code.",]
+			},
+		{
+			companyName:"Behere Elite Private Limited (Delhi/Remote)",
 			start:"1/08/2022",
 			end:"31/12/2022",
 			role:"Software Developer Intern(MERN)",
