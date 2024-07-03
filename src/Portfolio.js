@@ -9,16 +9,16 @@ const aboutMe = {
   display: true,
   title: "About Me",
   subTitle:
-    "Full Stack Web Developer 🚀 having an experience of building Web with JavaScript / Reactjs and some other  libraries and frameworks .",
+    "Full Stack Web Developer 🚀 having an experience of building Web with JavaScript / Reactjs and some other  libraries and frameworks.",
   skills: [
-    "⚡ Proficient in programming languages such as C++,Java(OOPS) and Python(Basics)",
-    "⚡ Familiarity with web development technologies such as HTML, CSS,React.js,JavaScript, MERN stack",
-    "⚡ Familiarity with RESTful APIs,Redux, React Hooks and working of modern authorization mechanisms, such as JSON Web Token",
-    "⚡ Ability to work in a collaborative team environment and adapt to chainging environment",
-    "⚡ Good analytical and problem-solving skills",
-    "⚡ Experience working with version control systems such as Git/Github and dataBases like MongoDb,MySql/Oracle",
-    "⚡ Knowledge of cloud platforms e. g. AWS and Big Data technologies",
-    "⚡ Experience in software development life cycle (SDLC) and agile methodologies",
+    "⚡ Proficient in programming languages such as C++,Java(OOPS) and Python(Basics).",
+    "⚡ Experienced in full stack development, including HTML, CSS , JavaScript, React.js,Node.js,Express.js(MERN).",
+    "⚡ Familiarity with RESTful APIs,Redux, React Hooks and working of modern authorization mechanisms, such as JSON Web Token.",
+    "⚡ Ability to work in a collaborative team environment and adapt to chainging environment.",
+    "⚡ Good analytical and problem-solving skills.",
+    "⚡ Experience working with version control systems such as Git/Github and dataBases like MongoDb,MySql/Oracle.",
+    "⚡ Knowledge of containerized tools such as Docker.",
+    "⚡ Experience in software development life cycle (SDLC) and agile methodologies.",
   ],
 };
 
