@@ -30,7 +30,7 @@ const Greeting = () => {
 
                         </p>  </div>
                     <div className="resume">
-                        <a href={process.env.PUBLIC_URL + `RiteshExperienceResume.pdf`} target="_blank">See My Resume</a>
+                        <a href={process.env.PUBLIC_URL + `RiteshResume.pdf`} target="_blank">See My Resume</a>
                     </div>  
                     <div className="profileLinks">
                         <a href="https://www.linkedin.com/in/ritesh-sajwan-693a781b8/" target="_blank">LinkedIn</a>
