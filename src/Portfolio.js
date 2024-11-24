@@ -352,10 +352,11 @@ const experienceInfo = {
       end: "Present",
       role: "Associate Developer",
       desc: [
-        "Developed independent modules to enhance the functionality of the Pathik platform.",
-        "Integrated various platforms such as TikTok to broaden the service offerings of Pathik.",
-        "Collaborated with cross-functional teams to ensure seamless integration and optimal performance of new modules.",
-        "Utilized best practices in React.js and TypeScript to deliver high-quality, maintainable, and scalable code.",
+        "Engineering full-stack web applications by integrating front-end React components with Node.js back-end services",
+        "Developing RESTful APIs and implementing middleware for authentication, validation, and error handling to ensure secure and efficient data flow.",
+        "Optimizing state management and data flow using Redux Toolkit and Saga on the front end, while improving back-end performance through caching and efficient database querying.",
+        "Collaborating with cross-functional teams to integrate third-party services and APIs, ensuring smooth communication between client-side interfaces and server-side logic.",
+        "Streamlining development and deployment using CI/CD pipelines, Docker for containerization, and other DevOps practices to build scalable, high-performing applications."
       ],
     },
     {
