@@ -22,7 +22,7 @@ const Greeting = () => {
                     <div className="text-2">{greeting.username}</div>
                     <div className="text-3"> 
                         <p>
-                    An Associate Developer 1 with a passion for crafting seamless user experiences through innovative web development. With over 1year of  experience in the dynamic realm of React.js , TypeScript,node.js,   I specialize in bridging the gap between frontend and backend systems.
+                    An Associate Developer 1 with a passion for crafting seamless user experiences through innovative web development. With around 1.5years of  experience in the dynamic realm of React.js,TypeScript,node.js,express.js,mongodb,   I specialize in bridging the gap between frontend and backend systems.
 
                     🛠️ My expertise lies in API integration, where I leverage the power of Redux and Saga middleware to streamline data flow and enhance application performance.
 
