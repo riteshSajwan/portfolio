@@ -26,43 +26,23 @@ const projects = {
   display: true,
   title: "Projects 🏆  ",
   subtitle:
-    " Note -  API(Projects) might take a bit longer time to load as hosted on free web services",
+    " Note -  Projects might take a bit longer time to load as hosted on free web services",
   projectCards: [
-    {
-      title: "Personal Task Manager",
-      subtitle: `Web application is made using ReactJs and styled using material-ui
-			Features of the app are create, update, edit and delete goals. Add labels to goal, Start a timer to track the time spent for goal, timer keeps running even when the window is closed.
-			Filter goals by hashtag and/or text, and sort goals by time spent per goal
-			View a Bar graph that displays the amount of time spent per goal.`,
-      image: require("./images/task.png"),
+	 {
+      title: "Grocerry Store miroservice",
+      subtitle: `This grocery store application is built using a microservices architecture, where each service is responsible for a specific functionality and maintains its own database. 
+      		Services communicate asynchronously via RabbitMQ, a message broker, ensuring scalability, fault tolerance, and modularity.
+		The custom logger using Winston is utilized to log errors, ensuring consistent logging across all services and application deployed on AWS elasticbeanstalk
+			`,
       direction: "right",
       footerLink: [
         {
           name: "Source Code",
-          url: "https://github.com/Ritesh9211/Personal-task-manager",
+          url: "https://github.com/riteshSajwan/grocery-micro-architecture",
         },
         {
           name: "Live Demo",
-          url: "https://imaginative-haupia-00def5.netlify.app/",
-        },
-      ],
-    },
-    {
-      title: "Blood Donation Web Application",
-      subtitle: `The web application is made using MERN stack styled with CSS, font-awesome.
-			The web application included features such as users registration and functionality to find compatible donors.
-			The project was built using a combination of front-end and back-end technologies such as HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, and MongoDB.
-			Application Hosted on Render.com`,
-      image: require("./images/bld.png"),
-      direction: "left",
-      footerLink: [
-        {
-          name: "Source Code",
-          url: "https://github.com/Ritesh9211",
-        },
-        {
-          name: "Live Demo",
-          url: "https://blddonnerwebapp.onrender.com",
+          url: "http://newtest-env.eba-rjwiavgt.ap-south-1.elasticbeanstalk.com/",
         },
       ],
     },
@@ -121,6 +101,25 @@ const projects = {
         },
       ],
     },
+	  {
+      title: "Personal Task Manager",
+      subtitle: `Web application is made using ReactJs and styled using material-ui
+			Features of the app are create, update, edit and delete goals. Add labels to goal, Start a timer to track the time spent for goal, timer keeps running even when the window is closed.
+			Filter goals by hashtag and/or text, and sort goals by time spent per goal
+			View a Bar graph that displays the amount of time spent per goal.`,
+      image: require("./images/task.png"),
+      direction: "right",
+      footerLink: [
+        {
+          name: "Source Code",
+          url: "https://github.com/Ritesh9211/Personal-task-manager",
+        },
+        {
+          name: "Live Demo",
+          url: "https://imaginative-haupia-00def5.netlify.app/",
+        },
+      ],
+    },
     {
       title: "Bank Management System",
       subtitle: ` The project aimed to simulate a basic bank management system that would streamline banking operations like sending and receiving money.
@@ -136,6 +135,25 @@ const projects = {
         {
           name: "Live Demo",
           url: "https://bankfrontend.onrender.com",
+        },
+      ],
+    },
+	{
+      title: "Blood Donation Web Application",
+      subtitle: `The web application is made using MERN stack styled with CSS, font-awesome.
+			The web application included features such as users registration and functionality to find compatible donors.
+			The project was built using a combination of front-end and back-end technologies such as HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS, and MongoDB.
+			Application Hosted on Render.com`,
+      image: require("./images/bld.png"),
+      direction: "left",
+      footerLink: [
+        {
+          name: "Source Code",
+          url: "https://github.com/Ritesh9211",
+        },
+        {
+          name: "Live Demo",
+          url: "https://blddonnerwebapp.onrender.com",
         },
       ],
     },
