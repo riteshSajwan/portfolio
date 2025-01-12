@@ -22,12 +22,11 @@ const Greeting = () => {
                     <div className="text-2">{greeting.username}</div>
                     <div className="text-3"> 
                         <p>
-                    An Associate Developer 1 with a passion for crafting seamless user experiences through innovative web development. With around 1.5years of  experience in the dynamic realm of React.js,TypeScript,node.js,express.js,mongodb,   I specialize in bridging the gap between frontend and backend systems.
-
-                    🛠️ My expertise lies in API integration, where I leverage the power of Redux and Saga middleware to streamline data flow and enhance application performance.
-
-                    💻 In addition to my frontend skills, I'm proficient in backend technologies like Node.js, allowing me to develop comprehensive solutions across the entire tech stack. Moreover, I know containerization technologies like Docker and orchestration systems like Kubernetes, ensuring scalability and reliability in deployment.
-
+                           "I am an Associate Developer with around 2 years of experience in developing full-stack applications using React.js, TypeScript, Node.js, Express.js, and MongoDB. 
+                            My expertise lies in API integration, where I leverage the power of Redux and Saga middleware to streamline data flow and enhance application performance. 
+                            In addition to my frontend skills, I am proficient in backend technologies like Node.js, enabling me to develop comprehensive solutions across the entire tech stack.
+                            I have hands-on experience building Node.js microservices that communicate efficiently via message brokers and interact with MongoDB for scalable and robust architectures. 
+                            Additionally, I am skilled in containerizing applications using Docker.
                         </p>  </div>
                     <div className="resume">
                         <a href={process.env.PUBLIC_URL + `RiteshResume.pdf`} target="_blank">See My Resume</a>
