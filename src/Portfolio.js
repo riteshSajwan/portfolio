@@ -30,9 +30,9 @@ const projects = {
   projectCards: [
 	 {
       title: "Grocerry Store miroservice",
-      subtitle: `This grocery store application is built using a microservices architecture, where each service is responsible for a specific functionality and maintains its own database. 
+      subtitle: `This grocery store's API is built using a microservices architecture, where each service is responsible for a specific functionality and maintains its own database. 
       		Services communicate asynchronously via RabbitMQ, a message broker, ensuring scalability, fault tolerance, and modularity.
-		The custom logger using Winston is utilized to log errors, ensuring consistent logging across all services and application deployed on AWS elasticbeanstalk
+		The custom logger using Winston is utilized to log errors, ensuring consistent logging across all services and backend deployed on AWS elasticbeanstalk with CI/CD pipeline.
 			`,
       direction: "right",
       footerLink: [
