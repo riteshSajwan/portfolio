@@ -380,7 +380,7 @@ const experienceInfo = {
     {
       companyName: "Behere Elite Private Limited (Delhi/Remote)",
       start: "1/10/2022",
-      end: "1/03/2022",
+      end: "28/02/2022",
       role: "Software Developer Intern(MERN)",
       desc: [
         "Collaborated with a team to develop an e-commerce application with Api integration to render dynamic content from the database",
